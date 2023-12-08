@@ -1,0 +1,4 @@
+discord.py==2.3.2
+quart==0.19.3
+motor==3.3.1
+colorama==0.4.6
