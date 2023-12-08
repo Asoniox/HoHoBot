@@ -54,7 +54,7 @@ logging.getLogger('hypercorn.access').setLevel(logging.ERROR)
 
 #DOTENV
 TOKEN : Final[str] = os.environ['DISCORD_TOKEN']
-SERVER_PORT = int(os.environ['SERVER_PORT'])
+SERVER_PORT = int(os.environ['WEBSITE_PORT'])
 
 #HYPERCORN CONFIG
 config = Config()
